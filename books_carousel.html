@@ -18,7 +18,6 @@
         <button class="carousel-btn next">❯</button>
     </div>
 
-    <!-- Dots Navigation -->
     <div class="carousel-dots" id="dots-container"></div>
     <script>
         const bookDetails = {
@@ -95,10 +94,8 @@
             bookBox.addEventListener("click", () => {
                 let isVisible = description.style.display === "block";
 
-                // Hide all descriptions
                 document.querySelectorAll(".book-description").forEach(desc => desc.style.display = "none");
 
-                // Toggle the clicked one
                 description.style.display = isVisible ? "none" : "block";
             });
 
@@ -118,7 +115,6 @@
         }
 
         function slideCarousel(index) {
-            // Hide all descriptions when navigating
             document.querySelectorAll(".book-description").forEach(desc => desc.style.display = "none");
 
             track.style.transform = `translateX(-${index * 100}%)`;
