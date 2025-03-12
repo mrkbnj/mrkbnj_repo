@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #bbb; /* Soft grey background */
+    text-align: center;
+    padding: 20px;
+    color: #333; /* Dark grey text */
+}
+
+img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #bbb; /* Thinner border, seamless look */
+    border-radius: 10px; /* More rounded corners */
+    background-color: #e0e0e0; /* Light grey */
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Carousel Wrapper */
+.carousel-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Track for sliding effect */
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Individual Book Box */
+.book-box {
+    min-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image Styling */
+.fetched-img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.fetched-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+/* Description Box */
+.book-description {
+    background-color: #f0f0f0; /* Light grey */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    color: #222; /* Darker grey text */
+}
+
+/* Carousel Buttons */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(50, 50, 50, 0.7); /* Dark grey */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%; /* Rounded buttons */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Button shadow */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(20, 20, 20, 0.9); /* Even darker grey */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+/* Dots Navigation */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: #888; /* Grey */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Dot shadow */
+}
+
+.carousel-dot.active {
+    background-color: #444; /* Dark grey */
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow for active dot */
+}
+
+.carousel-btn {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 100;
+}
+r depth */
+    color: #222; /* Darker grey text */
+}
+
+/* Carousel Buttons */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(50, 50, 50, 0.7); /* Dark grey */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%; /* Rounded buttons */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Button shadow */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(20, 20, 20, 0.9); /* Even darker grey */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+/* Dots Navigation */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: #888; /* Grey */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Dot shadow */
+}
+
+.carousel-dot.active {
+    background-color: #444; /* Dark grey */
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow for active dot */
+}
+
+.carousel-btn {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 100;
+}
