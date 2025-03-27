@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+    <link rel="stylesheet" href="student.css"> 
+</head>
+<body>
+
+    <h1>Student Records</h1>
+    <div id="student-container"></div>  
+
+    <script>
+        fetch('markbenjamin_acob.xml')  
+            .then(response => response.text())  
+            .then(str => (new window.DOMParser()).parseFromString(str, "text/xml")) 
+            .then(data => {
+                const container = document.getElementById("student-container");
+                const students = data.getElementsByTagName("stud");
+
+                for (let i = 0; i < students.length; i++) {
+                    let imgSrc = students[i].getElementsByTagName("image")[0].textContent.trim();
+                    let studentName = students[i].getElementsByTagName("name")[0].textContent.trim();
+                    let course = students[i].getElementsByTagName("course")[0].textContent.trim();
+                    let yrSec = students[i].getElementsByTagName("yr_sec")[0].textContent.trim();
+                    let adv = students[i].getElementsByTagName("adv")[0].textContent.trim();
+                    let schYr = students[i].getElementsByTagName("sch_yr")[0].textContent.trim();
+
+                    let studentBox = document.createElement("div");
+                    studentBox.classList.add("student-box");
+
+                    let img = document.createElement("img");
+                    img.src = imgSrc;
+                    img.alt = "Student Image";
+                    img.classList.add("student-img");
+
+                    let details = document.createElement("div");
+                    details.classList.add("student-details");
+                    details.innerHTML = `
+                        <h3>${studentName}</h3>
+                        <p><strong>Course:</strong> ${course}</p>
+                        <p><strong>Year & Section:</strong> ${yrSec}</p>
+                        <p><strong>Adviser:</strong> ${adv}</p>
+                        <p><strong>School Year:</strong> ${schYr}</p>
+                    `;
+
+                    studentBox.appendChild(img);
+                    studentBox.appendChild(details);
+                    container.appendChild(studentBox);
+                }
+            })
+            .catch(error => console.error("Error fetching student records:", error));
+    </script>
+
+</body>
+</html>
