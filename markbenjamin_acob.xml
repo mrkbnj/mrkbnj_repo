@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<studentrec>
+
+    <stud>
+        <title>Student 1</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>Mark Benjamin H. Acob</name>
+        <course>BSIT</course>
+        <yr_sec>3B-G1</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+    </stud>
+  
+    <stud>
+        <title>Student 2</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>Martin H. Acob</name>
+        <course>BSIT</course>
+        <yr_sec>3C-G1</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+
+    </stud>
+
+    <stud>
+        <title>Student 3</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>Matthew  H. Acob</name>
+        <course>BSIT</course>
+        <yr_sec>3A-G2</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+
+    </stud>
+
+    <stud>
+        <title>Student 4</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>Susan H. Acob</name>
+        <course>BSIT</course>
+        <yr_sec>3A-G2</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+
+    </stud>
+
+ <stud>
+        <title>Student 5</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>Benjie H. Acob</name>
+        <course>BSIT</course>
+        <yr_sec>3D-G1</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+
+    </stud>
+
+    <stud>
+        <title>Student 6</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>Sonia H. Acob</name>
+        <course>BSIT</course>
+        <yr_sec>3A-G1</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+
+    </stud>
+
+    <stud>
+        <title>Student 7</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>Gildo H. Acob</name>
+        <course>BSIT</course>
+        <yr_sec>3C-G2</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+
+    </stud>
+
+    <stud>
+        <title>Student 8</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>Harold H. Acob</name>
+        <course>BLIS</course>
+        <yr_sec>3C-G1</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+
+    </stud>
+
+<stud>
+        <title>Student 9</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>Hubert H. Acob</name>
+        <course>BLIS</course>
+        <yr_sec>3A-G1</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+
+    </stud>
+
+    <stud>
+        <title>Student 10</title>
+        <image>https://static.vecteezy.com/system/resources/previews/039/399/767/non_2x/cute-high-school-student-boy-hands-up-chibi-kawaii-vector.jpg</image>
+        <name>James H. Acob</name>
+        <course>BSIT</course>
+        <yr_sec>3A-G1</yr_sec>
+        <adv>Sheldon V. Arenas</adv>
+        <sch_yr>2024-2025</sch_yr>
+
+    </stud>
+
+
+</studentrec>
